@@ -388,7 +388,7 @@ public class SPSingleLogout {
                 SAML2Constants.SESSION_INDEX);
              nameID = AssertionFactory.getInstance().createNameID();
              nameID.setValue(nameIdInfoKey.getNameIDValue());
-             nameID.setFormat(SAML2Constants.NAMEID_TRANSIENT_FORMAT);
+             nameID.setFormat(SAML2Constants.NAMEID_PERSISTENT_FORMAT);
              nameID.setNameQualifier(nameIdInfoKey.getRemoteEntityID());
              nameID.setSPNameQualifier(nameIdInfoKey.getHostEntityID());
         } else {

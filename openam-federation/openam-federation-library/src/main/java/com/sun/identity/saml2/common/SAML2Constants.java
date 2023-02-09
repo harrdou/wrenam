@@ -677,7 +677,11 @@ public interface SAML2Constants {
     public String NAMEID_TRANSIENT_FORMAT = 
          NAMEID_FORMAT_NAMESPACE + "transient";
 
-    /**
+    public String NAMEID_PERSISTENT_FORMAT = 
+         NAMEID_FORMAT_NAMESPACE + "persistent";
+
+
+         /**
      * certficate alias attribute.
      */
     public String CERT_ALIAS = "sun-fm-saml2-cert-alias";
