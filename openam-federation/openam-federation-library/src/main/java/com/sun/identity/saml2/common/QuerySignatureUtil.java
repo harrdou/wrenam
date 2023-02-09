@@ -97,7 +97,7 @@ public class QuerySignatureUtil {
             case "RSA":
                 //Defaulting to RSA-SHA1 for the sake of interoperability
                 querySigAlg = SystemPropertiesManager.get(SAML2Constants.QUERY_SIGNATURE_ALGORITHM_RSA,
-                        XMLSignature.ALGO_ID_SIGNATURE_RSA_SHA1);
+                        XMLSignature.ALGO_ID_SIGNATURE_RSA_SHA256);
                 break;
             case "DSA":
                 //Defaulting to SHA1WithDSA as JDK7 does not support SHA256WithDSA
