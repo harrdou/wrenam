@@ -53,6 +53,7 @@
 						sstc-saml-metadata-ext-query.xsd,
 						sstc-saml-metadata-x509-query.xsd,
 						sstc-metadata-attr.xsd,
+                        sstc-saml-metadata-ui.xsd,
 						sstc-saml-attribute-ext.xsd,
 						sstc-saml-idp-discovery.xsd
                     </schemaFiles>

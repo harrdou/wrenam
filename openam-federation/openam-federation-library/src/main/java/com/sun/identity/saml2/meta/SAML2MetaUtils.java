@@ -81,7 +81,8 @@ public final class SAML2MetaUtils {
         "com.sun.identity.saml2.jaxb.xmlsig:" +
         "com.sun.identity.saml2.jaxb.assertion:" +
         "com.sun.identity.saml2.jaxb.metadata:" +
-	"com.sun.identity.saml2.jaxb.metadataattr:" +
+	    "com.sun.identity.saml2.jaxb.metadataattr:" +
+        "com.sun.identity.saml2.jaxb.metadataui:" +
         "com.sun.identity.saml2.jaxb.entityconfig:" +
         "com.sun.identity.saml2.jaxb.schema";
     private static final String JAXB_PACKAGE_LIST_PROP =

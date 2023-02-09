@@ -129,7 +129,20 @@
     <jxb:schemaBindings>
       <jxb:package name="com.sun.identity.saml2.jaxb.metadataattr">
          <jxb:javadoc>
-     <![CDATA[<body> Package level documentation for generated package com.sun.identity.saml2.jaxb.metadata. </body>]]>
+     <![CDATA[<body> Package level documentation for generated package com.sun.identity.saml2.jaxb.metadata-attr. </body>]]>
+         </jxb:javadoc>
+      </jxb:package>
+      <jxb:nameXmlTransform>
+          <jxb:elementName suffix="Element"/>
+      </jxb:nameXmlTransform>
+    </jxb:schemaBindings>
+  </jxb:bindings>
+
+  <jxb:bindings schemaLocation="../xsd/sstc-saml-metadata-ui.xsd" node="/xs:schema">
+    <jxb:schemaBindings>
+      <jxb:package name="com.sun.identity.saml2.jaxb.metadataui">
+         <jxb:javadoc>
+     <![CDATA[<body> Package level documentation for generated package com.sun.identity.saml2.jaxb.metadataui. </body>]]>
          </jxb:javadoc>
       </jxb:package>
       <jxb:nameXmlTransform>
